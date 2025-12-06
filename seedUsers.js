@@ -3,7 +3,7 @@ const bcrypt = require("bcryptjs");
 const User = require("./models/User");
 
 async function seed() {
-  await mongoose.connect("mongodb://127.0.0.1:27017/apartment-chef");
+  await mongoose.connect("mongodb+srv://sahrohan101_db_user:dbuser963121@cook-cluster.xehzdgz.mongodb.net/");
 
   await User.deleteMany({});
 
