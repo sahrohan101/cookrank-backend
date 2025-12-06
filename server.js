@@ -9,7 +9,7 @@ app.use(express.json());
 
 // MongoDB connect
 mongoose
-  .connect("mongodb://127.0.0.1:27017/apartment-chef")
+  .connect("mongodb+srv://sahrohan101_db_user:dbuser963121@cook-cluster.xehzdgz.mongodb.net/")
   .then(() => console.log("✅ MongoDB connected"))
   .catch((err) => console.error("Mongo error:", err));
 
